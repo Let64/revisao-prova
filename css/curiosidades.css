@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #eeb5ce;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+    padding: 20px;
+}
+
+#logo-texto2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo-header2 img {
+    width: 150px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+#texto-header2 {
+    display: flex;
+    font-size: 16px;
+    color: #f476ad;
+}
+
+#menu2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: pink;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    background-color: rgb(227, 172, 229);
+    margin: 20px;
+}
+
+#hero-img img {
+    width: 400px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+body {
+    background-color: rgb(240, 210, 243);
+}
+
+#card {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    padding: 30px;
+    font-size: 15px;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 26px;
+}
+
+#texto3 {
+    margin-top: 20px;
+    padding: 20px;
+    color: #eeb5ce;
+}
+
+footer {
+    background-color: #eeb5ce;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#final2 {
+    padding: 20px;
+}
